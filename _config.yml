@@ -4,7 +4,7 @@ baseurl:		  /blog/
 permalink:		/:title/
 
 social:
-  dribbble: 
+  dribbble:
     url: https://dribbble.com/benske
   twitter:
     url:https://twitter.com/benoitboucart
