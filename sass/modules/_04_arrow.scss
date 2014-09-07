@@ -1,0 +1,126 @@
+.arrow-holder {
+	position: relative;
+}
+$arrow_width: auto; // 200px
+$arrow_fontsize: 15px;
+$arrow_line_width: 32px;
+$arrow_offset: 1.4em;
+.arrow {
+	display: block; text-transform: uppercase; 
+	position: absolute; top: 0; bottom: 0; z-index: 5; width: $arrow_width; height: 100%;
+	cursor: pointer; color: #fff;
+	//overflow: hidden;
+	padding-top: 1em; padding-bottom: 1em;
+	@extend %fontmain; 
+	//width: 40px; height: 110px;
+// @include perspective(600px);
+// @include perspective-origin(50% 50%);
+	
+	.arrowed { display: block; position: relative; top: 0; bottom: 0; left: 0; right: 0; height: 100%; }
+	.inner {
+		display: block;
+		@extend %vertical-align;
+		//position: absolute; top: 50%; margin-top: -13px; width: $arrow_width; 
+// @include transition(all 400ms ease);
+// @include transform-origin(50% 0%);
+// @include transform-style(preserve-3d);
+	}
+	.top {
+		display: block; font-weight: 700; line-height: 1em; margin-bottom: 2px; 
+		font-size: $arrow_fontsize;
+		@include transition(all 200ms ease-in);
+	}
+	.sub { 
+		display: block; font-size: pem(12, $arrow_fontsize); line-height: 1em; 
+		@include transition(all 200ms ease-in);
+	}
+
+	// &:before, &:after, .arrowed:before, .arrowed:after {
+	// 	z-index: 1;
+	// 	content: ""; position: absolute; top: 50%; left: 0;
+	// 	margin-left: $arrow_offset;
+	// 	width: $arrow_line_width; // original: 40px;
+	// 	height: 3px;
+	// 	background: #9e9bb3;
+	// 	@include border-radius(2px);
+	// }
+	// 	// Do not show it for now
+	// 	.arrowed:before, .arrowed:after { 
+	// 		background: #fff; // this one have a white color! (only showed on hover!)
+	// 		z-index: 2; // must be above other arrows!
+	// 		width: 0px;
+	// 		@include transition(width 250ms ease-in); 
+	// 	}
+	// &:before, .arrowed:before {
+	// 	//top: 26px;
+	// }
+	// &:after, .arrowed:after {
+	// 	margin-top: 1px;
+	// }
+	
+	svg {
+		position: absolute; top: 50%; left: 1.3em; margin-top: -20px;
+	}
+	&--right { svg { @include transform(rotate(180deg)); left: auto; right: 1.3em; } }
+
+	&--left {
+		left: 0;
+		
+		.inner { margin-right: 1.5em; margin-left: 1.85em + $arrow_offset; }
+		.top { @include transform(translateX(-300px)); }
+		.sub { @include transform(translateX(-300px)); }
+		
+	// 	&:before, &:after, .arrowed:before, .arrowed:after {
+	// 		@include transform-origin(0 0 0);
+	// 	}
+	// 	&:before, .arrowed:before {
+	// 		left: 2px;
+	// 		@include transform(rotate(60deg));
+	// 	}
+	// 	&:after, .arrowed:after {
+	// 		@include transform(rotate(-60deg));
+	// 	}
+	}
+	&--right {
+		text-align: right; 
+		right: 0;
+
+		.inner { margin-left: 1.5em; margin-right: 1.85em + $arrow_offset; }
+		.top { @include transform(translateX(300px)); }
+		.sub { @include transform(translateX(300px)); }
+
+	// 	&:before, &:after, .arrowed:before, .arrowed:after {
+	// 		left: auto; right: 0; margin-right: $arrow_offset;
+	// 		@include transform-origin(100% 100% 0);
+	// 	}
+	// 	&:before, .arrowed:before {
+	// 		@include transform(rotate(-60deg));
+	// 	}
+	// 	&:after, .arrowed:after {
+	// 		right: 2px;
+	// 		@include transform(rotate(60deg));
+	// 	}
+	}
+
+	// Hover
+	&:hover {
+		background: rgba(0,0,0,.1);
+		color: #fff; 
+		&:before, &:after { }
+		.arrowed:before, .arrowed:after { 
+			// Animate the line!
+			width: $arrow_line_width; 
+		}
+		.inner { 
+// @include transform(translate3d( 0px, 0px, -30px ) rotateX( 90deg ));
+			.top {
+				@include transition(200ms);
+				@include transform(translateX(0));
+			}
+			.sub {
+				@include transition(350ms);
+				@include transform(translateX(0));	
+			}
+		}
+	}
+}

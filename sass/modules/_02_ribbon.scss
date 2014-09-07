@@ -1,0 +1,71 @@
+$ribbon_color: #fff;
+$ribbon_width: 35px; 
+$ribbon_height: 40px; 
+
+.ribbon-holder { position: relative; }
+.ribbon {
+	// position: absolute; top: 0; right: 0;
+	display: block; cursor: pointer;
+	text-align: center; 
+
+	.icon { 
+		margin-top: .5em; 
+		position: relative; z-index: 2;
+		@include transform(scale(.9));
+		@include transition(200ms all ease-in); 
+		// @include transform-origin(50% 50% 0);
+
+		// Show a star in BG
+		// &:before { /*z-index: 2;*/ color: #5E5B74; }
+		// &:after {
+		// 	display: none;
+		// 	z-index: 1;
+		// 	content: "\2605"; font-size: 2em; color: $color_main; font-style: normal; 
+		// 	position: absolute; right: 0; left: 1px; top: 10px;
+		// }
+	}
+
+	&__inner {
+		position: relative; overflow: hidden; 
+		width: $ribbon_width;
+		height: 70px;
+		margin: 0 auto; margin-right: 0;
+	}
+	&__base {
+		// height: $ribbon_height;
+		// width: $ribbon_width;
+		background: $ribbon_color;
+		// position: relative;
+		// z-index: 2;
+	}
+
+	&__cornerl {
+		width: $ribbon_width;
+		height: $ribbon_width;
+		background: $ribbon_color;
+		position: absolute;
+		bottom: 28px;
+		left: - $ribbon_width/2;
+		z-index: 1;
+		
+		@include transform(rotate(45deg));
+	}
+	&__cornerr {
+		width: $ribbon_width;
+		height: $ribbon_width;
+		background: $ribbon_color;
+		position: absolute;
+		bottom: 27px;
+		right: - $ribbon_width/2;
+		z-index: 1;
+		
+		@include transform(rotate(45deg));
+	}
+
+	// Hover
+	&:hover {
+		.icon {
+			@include transform(scale(1) rotate(10deg));
+		}
+	}
+}

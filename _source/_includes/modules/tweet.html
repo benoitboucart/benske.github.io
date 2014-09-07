@@ -1,0 +1,22 @@
+{% assign wrapperClass = 'rowgrid__item rowgrid__item--quarter rowgrid__item--tweet rowgrid__item--rowtwo' %}
+{% if tweeturl %}
+<a class="{{wrapperClass}}" href="{{tweeturl}}" title="{{ tweet.attrs[':text'] }}" target="_blank">
+{% else %}
+<div class="{{wrapperClass}}">
+{% endif %}
+
+    <div class="rowgrid__inner rowgrid__inner--vert">
+        <span class="iconwrapper">
+            <i class="icon icons-social-twitter"></i>
+        </span>
+
+        <div class="tweet__text">
+            {{ tweet.attrs[':text']| replace:tweeturl,'bar'  }}
+        </div>
+    </div>
+
+{% if tweeturl %}
+</a>
+{% else %}
+</div>
+{% endif %}

@@ -1,0 +1,25 @@
+source:      	_source
+destination: 	blog
+baseurl:		  /
+permalink:		/:title/
+
+social:
+  dribbble: 
+    url: https://dribbble.com/benske
+  twitter:
+    url:https://twitter.com/benoitboucart
+  google: 
+    url: https://plus.google.com/+BenoîtBoucart
+  instagram: 
+    url: http://instagram.com/benoitboucart
+twitter_helper:
+  allowed_hashtags: ['visualization', 'user', 'design', 'ux', 'css', 'inspiration']
+dribbble_set:
+  user:            'benske'
+  shots_per_page:  15
+  page:            1
+  gallery_tag:     'div'
+  gallery_class:   'rowgrid__item rowgrid__item--quarter'
+  is_list:         false
+  a_target:        '_blank'
+  full_size:       true

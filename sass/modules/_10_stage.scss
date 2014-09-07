@@ -1,0 +1,13 @@
+.stage {
+	// min-width: 500px;
+	min-height: 300px;
+	position: relative; z-index: 100;
+
+	* {
+	    padding: 0;
+	    margin: 0;
+	    position: absolute;
+	    width: 100%;
+	    height: 100%;
+	}
+}

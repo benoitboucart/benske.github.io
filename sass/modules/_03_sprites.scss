@@ -1,0 +1,57 @@
+// ICONS
+// $icons-sprite-dimensions: true;
+// @import "../img/icons/*.png";
+// @include all-icons-sprites;
+
+
+// // Unicode Icons (from KNACSS)
+// .uicon:before, .uicon.after:after { 
+//   content: ""; display: inline-block; vertical-align: middle; position: relative; 
+//   top: -0.1em; font: 1.4em/1 sans-serif; 
+//   color: $color_dark; /*text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);*/ 
+//   speak: none; 
+// } 
+// .uicon--rate:before, .uicon--rate.after:after { content: "\2605"; }
+
+// Sprite icons
+//http://www.vtcreative.fr/blog/creation-de-sprites-avec-sass-et-compass/
+$sprites: sprite-map("../img/icons/1x/*.png", $new-position: 100%, $new-spacing: 15px, $new-repeat: no-repeat);
+$sprites2x: sprite-map("../img/icons/2x/*.png");
+@mixin sprite-background($name) {
+  background-position: sprite-position($sprites, $name);
+  height: image-height(sprite-file($sprites, $name));
+  width: image-width(sprite-file($sprites, $name));
+
+  @media (-webkit-min-device-pixel-ratio: 1.5),
+		 (-o-min-device-pixel-ratio: 3/2), 
+		 (min-device-pixel-ratio: 1.5) {
+	background-position: 0 round(nth(sprite-position($sprites2x, $name), 2) / 2);
+  }
+}
+
+// "Normal" Icon
+.icon,
+%spritedefinition { 
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-image: sprite-url($sprites);
+
+  @media (-webkit-min-device-pixel-ratio: 1.5), 
+		 (-o-min-device-pixel-ratio: 3/2), 
+		 (min-device-pixel-ratio: 1.5) {
+	background-image: sprite-url($sprites2x);
+	background-size: ceil(image-width(sprite-path($sprites2x)) / 2) auto;
+  }
+}
+
+
+.icons-clock { @include sprite-background(clock); }
+.icons-star { @include sprite-background(star); }
+.icons-heart { @include sprite-background(heart); }
+.icons-home { @include sprite-background(home); }
+.icons-home-alt { @include sprite-background(home-alt); }
+.icons-social-dribbble { @include sprite-background(social-dribbble); }
+.icons-social-facebook { @include sprite-background(social-facebook); }
+.icons-social-twitter { @include sprite-background(social-twitter); }
+.icons-social-google { @include sprite-background(social-google); }

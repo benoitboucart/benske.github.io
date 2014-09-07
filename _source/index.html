@@ -1,0 +1,298 @@
+---
+layout: default
+---
+{% comment %}
+<div class="row">
+    <h2>{{page.title}}</h2>
+</div><!--/row-->
+{% dribbble_benoit %}
+{% endcomment %}
+
+<div class="rowgrid-wrapper">
+
+<div class="backgroundedwrapper rowgrid" data-columns>
+{% include header_menu.html %}
+
+<div class="rowgrid__item rowgrid__item--half rowgrid__item--rowtwo rowgrid__item--intro backgrounded">
+    <div class="rowgrid__inner rowgrid__inner--vert">
+        <div class="content-zone">
+            <p>
+                Hi, I'm Benoît Boucart, a web designer and (front-end) developer. 
+            </p>
+            <p>
+                Find me on:
+            </p>
+        </div><!--/content-->
+
+        <a href="{{ site.social.dribbble.url }}" target="_blank" class="btn btn--circle btn--social--dribbble">
+            <span class="inner">
+                <i class="icon icons-social-dribbble"></i>
+            </span>
+        </a>
+        <a href="{{ site.social.twitter.url }}" target="_blank" class="btn btn--circle btn--social--twitter">
+            <span class="inner">
+                <i class="icon icons-social-twitter"></i>
+            </span>
+        </a>
+        <a href="{{ site.social.google.url }}" target="_blank" class="btn btn--circle btn--social--google">
+            <span class="inner">
+                <i class="icon icons-social-google"></i>
+            </span>
+        </a>
+    </div>
+</div>
+{% for instagram in site.data.instagrams limit:4 %}
+    {% assign shotcreatedat = instagram.caption.created_time | plus: 0 %}
+    {% if instagram.id != '423267845099925543_287515427' %}
+    <div class="rowgrid__item rowgrid__item--eight rowgrid__item--rowone rowgrid__item--instagram">
+        <a class="img imgCovered imgHover" style="background-image: url('{{ instagram.images.low_resolution.url }}')" title="Instagram: {{ instagram.caption.text }}" href="{{ site.social.instagram.url }}">
+        </a>
+    </div>
+    {% endif %}
+{% endfor %}
+
+<a href="{{ site.social.google.url }}" target="_blank" class="rowgrid__item rowgrid__item--eight rowgrid__item--rowone rowgrid__item--social google">
+    <div class="rowgrid__inner rowgrid__inner--vert">
+        <i class="icon icons-social-google"></i>
+        <p>Google+</p>
+    </div>
+</a>
+<a href="{{ site.social.dribbble.url }}" target="_blank" class="rowgrid__item rowgrid__item--eight rowgrid__item--rowone rowgrid__item--social dribbble">
+    <div class="rowgrid__inner rowgrid__inner--vert">
+        <i class="icon icons-social-dribbble"></i>
+        <p>Dribbble</p>
+    </div>
+</a>
+<a href="{{ site.social.twitter.url }}" target="_blank" class="rowgrid__item rowgrid__item--quarter rowgrid__item--rowone rowgrid__item--social twitter">
+    <div class="rowgrid__inner rowgrid__inner--vert">
+        <i class="icon icons-social-twitter"></i>
+        <p>Twitter</p>
+    </div>
+</a>
+
+{% comment %}
+{% youtube http://www.youtube.com/watch?v=5EnsjrDsVyI %}
+{% endcomment %}
+ 
+{% comment %}
+{% dribbble_set %}
+{% endcomment %}
+
+{% assign currentdateunix = site.time | date:'%s' | plus: 0 %}
+
+{% capture forloop_min %}{{(0)}}{% endcapture %}
+{% for post in site.posts %}
+    {% comment %}Source: http://stackoverflow.com/questions/19086284/jekyll-liquid-templating-how-to-group-blog-posts-by-year{% endcomment %}
+    {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
+    {% capture nextyear %}{{post.previous.date | date: "%Y"}}{% endcapture %}
+    
+    {% assign currentdateunix = post.date | date:'%s' | plus: 0 %}
+    {% assign nextdateunix = post.previous.date | date: "%s" | plus: 0 %}
+    {% assign showedtweetinloop = false %}
+
+    {% if currentyear != year %}
+    {% capture forloop_min %}{{(forloop.index0)}}{% endcapture %}
+    <div class="backgrounded backgrounded--year backgrounded--1 rowgrid__item rowgrid__item--quarter rowgrid__item--rowtwo">
+        <div class="rowgrid__inner rowgrid__inner--vert">
+            <span class="year">
+                <small>year</small>
+                {{ currentyear }}
+            </span>
+            {% capture year %}{{currentyear}}{% endcapture %} 
+
+            {% comment %}
+            <div class="arrow arrow--left">
+                <svg width="25px" height="40px" viewBox="0 0 81 139">
+                    <path fill="#fff" d="M58.9103319,3.8342148 C63.9275825,-1.29368407 72.0647057,-1.29107495 77.1639611,3.92063726 C82.2279116,9.09626594 82.198021,17.5181678 77.2485188,22.5768242 L31.318494,69.5197703 L77.2485188,116.462716 C82.2657693,121.590615 82.2632165,129.907191 77.1639611,135.118903 C72.1000106,140.294532 63.8598341,140.263982 58.9103319,135.205326 L3.8112137,78.891075 C-1.25273677,73.7154463 -1.2880417,65.3601778 3.8112137,60.1484655 L58.9103319,3.8342148 Z"></path>
+                </svg>
+            </div><!--/arrow-->
+            {% endcomment %}
+
+            {% comment %}
+            <div class="arrow arrow--right">
+                <svg width="25px" height="40px" viewBox="0 0 81 139">
+                    <path fill="#fff" d="M58.9103319,3.8342148 C63.9275825,-1.29368407 72.0647057,-1.29107495 77.1639611,3.92063726 C82.2279116,9.09626594 82.198021,17.5181678 77.2485188,22.5768242 L31.318494,69.5197703 L77.2485188,116.462716 C82.2657693,121.590615 82.2632165,129.907191 77.1639611,135.118903 C72.1000106,140.294532 63.8598341,140.263982 58.9103319,135.205326 L3.8112137,78.891075 C-1.25273677,73.7154463 -1.2880417,65.3601778 3.8112137,60.1484655 L58.9103319,3.8342148 Z"></path>
+                </svg>
+            </div><!--/arrow-->
+            {% endcomment %}
+        </div><!--/row-->
+    </div><!--/l-top-->
+    {% comment %}
+    <div class="posts__for__year">
+    {% endcomment %}
+    {% endif %}
+
+    {% for shot in site.data.dribbbleshots.shots %}
+        {% assign shotcreatedat = shot.created_at | date: "%s" | plus: 0 %}
+        {% if shotcreatedat > nextdateunix and shotcreatedat < currentdateunix %}
+        <a class="rowgrid__item rowgrid__item--quarter rowgrid__item--rowtwo rowgrid__item--dribbble" href="{{ shot.url }}" title="{{ shot.title }}" target="_blank" >
+            <div class="rowgrid__inner">
+                <div class="shot__title">
+                    {{ shot.title }}
+                </div>
+                <div class="iconwrapper">
+                    <i class="icon icons-social-dribbble"></i>
+                </div>
+
+                {% comment %}
+                <p>Created at: {{ shotcreatedat }}</p>
+                <p>nextdateunix: {{ nextdateunix }}</p>
+                <p>currentdateunix: {{ currentdateunix }}</p>
+                <img class="img" src="{{ shot.image_url }}" alt="{{ shot.title }}"/>
+                {% endcomment %}
+                <div class="img imgCovered imgHover" style="background-image: url('{{ shot.image_url }}');"></div>
+            </div>
+        </a>
+        {% endif %}
+    {% endfor %}
+
+    {% comment %}
+    !!!COMMENTED PICTURES IN POST LOOP!!!
+    {% for instagram in site.data.instagrams %}
+        {% assign shotcreatedat = instagram.caption.created_time | plus: 0 %}
+        {% if shotcreatedat > nextdateunix and shotcreatedat < currentdateunix and instagram.id != '423267845099925543_287515427' %}
+        <div class="rowgrid__item rowgrid__item--eight rowgrid__item--rowone rowgrid__item--instagram">
+            <div class="img imgCovered" style="background-image: url('{{ instagram.images.low_resolution.url }}')">
+            </div>
+            {% comment %}alt="{{ instagram.caption.text }}"<p>{{ instagram.caption.created_time }}</p>{% endcomment %}
+        </div>
+        {% endif %}
+    {% endfor %}
+    {% endcomment %}
+
+
+    {% for tweet in site.data.tweets %}
+        {% assign tweetcreatedat = tweet.attrs[':created_at'] | date: "%s" | plus: 0 %}
+        {% if tweetcreatedat > nextdateunix and tweetcreatedat < currentdateunix %}
+    
+            {% assign showtweet = true %}
+            {% comment %}
+            {% for hashtag in tweet.attrs[':entities'][':hashtags'] %}
+                {% assign hastagText = hashtag[':text'] %}
+                {% for t in site.twitter_helper.allowed_hashtags %}
+                    {% if t == hastagText %}
+                      {% assign showtweet = true %}
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+            {% endcomment %}
+
+            {% if tweet.attrs[':entities'] and tweet.attrs[':entities'][':urls'] and tweet.attrs[':entities'][':urls'][0] %}
+                {% assign tweeturl = tweet.attrs[':entities'][':urls'][0][':url'] %}
+            {% endif %}
+
+            {% if showtweet and showedtweetinloop == false %}
+                {% assign favscount = tweet.attrs[':favorite_count'] | plus: 0 %}
+                {% assign retwcount = tweet.attrs[':retweet_count'] | plus: 0 %}
+                {% if favscount > 1 or retwcount > 1 %}
+                    {% include modules/tweet.html %}
+
+                    {% assign showedtweetinloop = true %}
+                {% endif %}
+            {% endif %}
+
+            {% if showedtweetinloop == false and forloop.last %}
+                {% include modules/tweet.html %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+
+        <a href="{{ post.url }}" class="backgrounded{% comment %} backgrounded--{{ (forloop.index | minus:(forloop_min) }}{% endcomment %} rowgrid__item rowgrid__item--half rowgrid__item--rowtwo" title="{{ post.title }} {{ post.subtitle }}">
+            <div class="rowgrid__inner rowgrid__inner--vert">
+                <div class="tags">
+                    {% for tag in post.tags %}
+                    <span class="tag">
+                        {{ tag }}
+                    </span>
+                    {% endfor %}
+                </div>
+
+                <h3 class="item__title">
+                    {% comment %}
+                    <a href="{{ post.url }}">
+                    {% endcomment %}
+                        <span class="post__title">{{ post.title }}</span>
+                        <small class="post__subtitle">{{ post.subtitle }}</small>
+                        <span class="separator separator--med"></span>
+                    {% comment %}
+                    </a>
+                    {% endcomment %}
+                </h3>
+
+                <time>
+                    {{ post.date | date: "%B %e, %Y" }}
+                </time>
+
+                {% comment %}
+                    - 
+                    {{ post.category }}
+                    
+                    {{ post.summary }}
+                    {% for tag in post.tags %}
+                    <a href="{{ site.baseurl }}/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">
+                        <u>{{ tag }}</u>
+                    </a>
+                    {% endfor %}
+                {% endcomment %}
+            </div><!--/rowgrid-->
+            <div class="after"{% if post.cover %} style="background-image: url('/assets/img/cover/cover-light-{{post.cover}}')"{% endif %}></div><!--/after-->
+        </a><!--/backgrounded-->
+
+    {% comment %}
+    {% if (currentyear != nextyear) %}
+    </div><!--/posts__for__year-->
+    {% endif %}
+    {% endcomment %}
+{% endfor %}
+
+{% for instagram in site.data.instagrams offset:4 %}
+    {% assign shotcreatedat = instagram.caption.created_time | plus: 0 %}
+    {% if instagram.id != '423267845099925543_287515427' %}
+    <div class="rowgrid__item rowgrid__item--eight rowgrid__item--rowone rowgrid__item--instagram">
+        <a class="img imgCovered imgHover" style="background-image: url('{{ instagram.images.low_resolution.url }}')" title="Instagram: {{ instagram.caption.text }}" href="{{ site.social.instagram.url }}">
+        </a>
+    </div>
+    {% endif %}
+{% endfor %}
+
+{% comment %}
+<div class="rowgrid__item rowgrid__item--quarter">
+    <img src="/assets/img/cover/cover-play.jpg" class="" width="500"/>
+</div>
+<div class="rowgrid__item rowgrid__item--quarter">
+    <img src="/assets/img/cover/cover-map.jpg" class="" width="500"/>
+</div>
+{% endcomment %}
+
+</div><!--/backgroundedwrapper.rowgrid-->
+</div><!--/rowgrid-wrapper-->
+
+{% comment %}
+{% for post in site.posts limit:25 %}
+<a href="{{ post.url }}">
+    {{ post.title }} {{ post.subtitle }}
+
+    <time datetime="{{ post.date | date: "%Y-%m-%d" }}">
+        {{ post.date | date: "%d/%m/%Y" }}
+    </time>
+
+    <p>
+        {% if post.description %}
+            {{ post.description | strip_html }}
+        {% else %}
+            {{ post.excerpt | strip_html }}
+        {% endif %}
+    </p>
+</a>
+<hr>
+{% endfor %}
+{% endcomment %}
+
+{% comment %}
+{% for tag in site.tags %}
+    <a href="{{ site.url }}/tags/{{ tag[0] }}" class="btn btn--tag">
+        <span class="circle"></span>
+        {{ tag[0] }}
+    </a>
+{% endfor %}
+{% endcomment %}

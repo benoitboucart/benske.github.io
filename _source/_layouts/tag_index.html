@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+{% include header_menu.html %}
+
+<div class="bb-menu-content-inner"><!-- extra div for emulating position:fixed of the menu -->
+	<header class="l-top hasAnim arrow-holder">
+		<div class="row ribbon-holder">
+	        <div class="lined">
+	            <a class="ribbon" href="{{site.baseurl}}" title="Go to homepage">
+	                <div class="ribbon__inner">
+	                    <div class="ribbon__base">
+	                        <i class="icon icons-home-alt"></i>
+	                    </div>
+	                    <div class="ribbon__cornerl"></div>
+	                    <div class="ribbon__cornerr"></div>
+	                </div>
+	            </a>
+
+	            <h1 class="page-title">
+	            	{{ page.title }}
+	                <span class="sub">{{ page.subtitle }}</span>
+	            </h1><!--/page-title-->
+
+	            <hr class="separator">
+
+	            <div class="intro">
+	                {{ page.description | markdownify }}
+	            </div><!--/intro-->
+	        </div><!--/lined-->
+	    </div><!--/row-->
+	    <div class="after"></div><!--/after-->
+	</header>
+	<div class="row">
+		<div class="tag-list">
+			{% for post in site.posts %}	
+			{% for tag in post.tags %}
+			{% if tag == page.tag %} 
+				<div class="tag-list__item">
+					<h3>
+						<a href="{{ post.url }}">
+					 		{{ post.title }} {{ post.subtitle }}
+						</a>
+					</h3>
+					{{ post.date | date: "%B %e, %Y" }}
+					 . 
+					{{ post.category }}
+					
+					{{ post.summary }}
+
+					{% for tag in post.tags %}
+					<a href="{{ site.baseurl }}/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">
+						<u>{{ tag }}</u>
+					</a>
+					{% if forloop.last != true %}
+					{% endif %}
+					{% endfor %}
+				</div><!--/tag-list__item-->
+			{% endif %}
+			{% endfor %}
+			{% endfor %}
+		</div><!--/tag-list-->
+	</div><!--/row-->
+</div><!-- /bb-menu-content-inner -->

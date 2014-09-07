@@ -1,0 +1,808 @@
+---
+page: '1'
+per_page: 50
+pages: 1
+total: 19
+shots:
+- id: 1694918
+  title: New blog preview
+  description: |-
+    <p>I’ve been working a lot on my new blog lately (and especially on this index view).</p>
+
+    <p>I'd love to have your feedback on this view, that is mixing my blog posts with my latest tweets &amp; Dribbble shots!</p>
+
+    <p>It will be launched soon.</p>
+  height: 600
+  width: 800
+  likes_count: 19
+  comments_count: 2
+  rebounds_count: 0
+  url: http://dribbble.com/shots/1694918-New-blog-preview
+  short_url: http://drbl.in/mcQE
+  views_count: 124
+  rebound_source_id: 1527973
+  image_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1694918/blog-preview.jpg
+  image_teaser_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1694918/blog-preview_teaser.jpg
+  image_400_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1694918/blog-preview_1x.jpg
+  player:
+    id: 59434
+    name: Benoît Boucart
+    location: Belgium, Europe, World
+    followers_count: 922
+    draftees_count: 5
+    likes_count: 3750
+    likes_received_count: 2180
+    comments_count: 504
+    comments_received_count: 203
+    rebounds_count: 2
+    rebounds_received_count: 1
+    url: http://dribbble.com/benske
+    avatar_url: https://d13yacurqjgara.cloudfront.net/users/59434/avatars/normal/54162_4888588178401_2139658563_o_copy.jpg?1358067724
+    username: benske
+    twitter_screen_name: benoitboucart
+    website_url: http://webbb.be
+    drafted_by_player_id: 6492
+    shots_count: 19
+    following_count: 154
+    created_at: 2011/09/04 04:42:47 -0400
+  created_at: 2014/08/22 02:47:22 -0400
+- id: 1539636
+  title: World Cup 2014 football app
+  description: |-
+    <p>This is a game overview for a fictional Fifa World Cup 2014 app.</p>
+
+    <p>The full game calendar can be seen in the header, based on the official Fifa World Cup schedule. </p>
+
+    <p>The icons come from @kstefanikova ’s awesome icon set.</p>
+
+    <p>The full view is attached. Feedback is welcome!
+    </p>
+  height: 600
+  width: 800
+  likes_count: 150
+  comments_count: 19
+  rebounds_count: 0
+  url: http://dribbble.com/shots/1539636-World-Cup-2014-football-app
+  short_url: http://drbl.in/kXuu
+  views_count: 3027
+  rebound_source_id: 
+  image_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1539636/worldcup-footuel-shot.jpg
+  image_teaser_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1539636/worldcup-footuel-shot_teaser.jpg
+  image_400_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1539636/worldcup-footuel-shot_1x.jpg
+  player:
+    id: 59434
+    name: Benoît Boucart
+    location: Belgium, Europe, World
+    followers_count: 922
+    draftees_count: 5
+    likes_count: 3750
+    likes_received_count: 2180
+    comments_count: 504
+    comments_received_count: 203
+    rebounds_count: 2
+    rebounds_received_count: 1
+    url: http://dribbble.com/benske
+    avatar_url: https://d13yacurqjgara.cloudfront.net/users/59434/avatars/normal/54162_4888588178401_2139658563_o_copy.jpg?1358067724
+    username: benske
+    twitter_screen_name: benoitboucart
+    website_url: http://webbb.be
+    drafted_by_player_id: 6492
+    shots_count: 19
+    following_count: 154
+    created_at: 2011/09/04 04:42:47 -0400
+  created_at: 2014/05/06 01:58:31 -0400
+- id: 1527973
+  title: Personal blog redesign
+  description: |-
+    <p>This is a redesigned version of my blog. </p>
+
+    <p>Any thoughts?</p>
+
+    <p>See full view in attachment.</p>
+  height: 600
+  width: 800
+  likes_count: 181
+  comments_count: 17
+  rebounds_count: 1
+  url: http://dribbble.com/shots/1527973-Personal-blog-redesign
+  short_url: http://drbl.in/kTef
+  views_count: 3104
+  rebound_source_id: 
+  image_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1527973/shot-2x.jpg
+  image_teaser_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1527973/shot-2x_teaser.jpg
+  image_400_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1527973/shot-2x_1x.jpg
+  player:
+    id: 59434
+    name: Benoît Boucart
+    location: Belgium, Europe, World
+    followers_count: 922
+    draftees_count: 5
+    likes_count: 3750
+    likes_received_count: 2180
+    comments_count: 504
+    comments_received_count: 203
+    rebounds_count: 2
+    rebounds_received_count: 1
+    url: http://dribbble.com/benske
+    avatar_url: https://d13yacurqjgara.cloudfront.net/users/59434/avatars/normal/54162_4888588178401_2139658563_o_copy.jpg?1358067724
+    username: benske
+    twitter_screen_name: benoitboucart
+    website_url: http://webbb.be
+    drafted_by_player_id: 6492
+    shots_count: 19
+    following_count: 154
+    created_at: 2011/09/04 04:42:47 -0400
+  created_at: 2014/04/28 02:59:16 -0400
+- id: 1506995
+  title: Dropbox redesign concept
+  description: |-
+    <p>I had some free time, so I tried to redesign the Dropbox web UI. I’m certainly not pretending this one is better than the current Dropbox web interface (I don’t know their context). So it’s just for practise.</p>
+
+    <p>It offers tagging possibilities + simple overview of who the files are shared with.</p>
+
+    <p>The full view is attached.</p>
+
+    <p>Feedback &amp; advices are welcome!</p>
+  height: 600
+  width: 800
+  likes_count: 236
+  comments_count: 22
+  rebounds_count: 0
+  url: http://dribbble.com/shots/1506995-Dropbox-redesign-concept
+  short_url: http://drbl.in/kLqJ
+  views_count: 4722
+  rebound_source_id: 
+  image_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1506995/dropbox-webui-shot.jpg
+  image_teaser_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1506995/dropbox-webui-shot_teaser.jpg
+  image_400_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1506995/dropbox-webui-shot_1x.jpg
+  player:
+    id: 59434
+    name: Benoît Boucart
+    location: Belgium, Europe, World
+    followers_count: 922
+    draftees_count: 5
+    likes_count: 3750
+    likes_received_count: 2180
+    comments_count: 504
+    comments_received_count: 203
+    rebounds_count: 2
+    rebounds_received_count: 1
+    url: http://dribbble.com/benske
+    avatar_url: https://d13yacurqjgara.cloudfront.net/users/59434/avatars/normal/54162_4888588178401_2139658563_o_copy.jpg?1358067724
+    username: benske
+    twitter_screen_name: benoitboucart
+    website_url: http://webbb.be
+    drafted_by_player_id: 6492
+    shots_count: 19
+    following_count: 154
+    created_at: 2011/09/04 04:42:47 -0400
+  created_at: 2014/04/13 13:04:02 -0400
+- id: 1445867
+  title: Trip Planner (WIP)
+  description: |-
+    <p>This the design for a landing page for a trip planner I’m working on (WIP).
+    <br />Please also check the full view that is attached.</p>
+
+    <p>Any thoughts? </p>
+  height: 600
+  width: 800
+  likes_count: 81
+  comments_count: 9
+  rebounds_count: 0
+  url: http://dribbble.com/shots/1445867-Trip-Planner-WIP
+  short_url: http://drbl.in/koLh
+  views_count: 1415
+  rebound_source_id: 
+  image_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1445867/reisplanner-shot.jpg
+  image_teaser_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1445867/reisplanner-shot_teaser.jpg
+  image_400_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1445867/reisplanner-shot_1x.jpg
+  player:
+    id: 59434
+    name: Benoît Boucart
+    location: Belgium, Europe, World
+    followers_count: 922
+    draftees_count: 5
+    likes_count: 3750
+    likes_received_count: 2180
+    comments_count: 504
+    comments_received_count: 203
+    rebounds_count: 2
+    rebounds_received_count: 1
+    url: http://dribbble.com/benske
+    avatar_url: https://d13yacurqjgara.cloudfront.net/users/59434/avatars/normal/54162_4888588178401_2139658563_o_copy.jpg?1358067724
+    username: benske
+    twitter_screen_name: benoitboucart
+    website_url: http://webbb.be
+    drafted_by_player_id: 6492
+    shots_count: 19
+    following_count: 154
+    created_at: 2011/09/04 04:42:47 -0400
+  created_at: 2014/03/02 10:45:03 -0500
+- id: 1420196
+  title: Mobile football app
+  description: |-
+    <p>Mobile version of a football app I’m working on. This is the “live game” preview.</p>
+
+    <p>There are 2 versions (see attchments). Which one do you prefer?
+    </p>
+  height: 600
+  width: 800
+  likes_count: 51
+  comments_count: 9
+  rebounds_count: 0
+  url: http://dribbble.com/shots/1420196-Mobile-football-app
+  short_url: http://drbl.in/kfly
+  views_count: 986
+  rebound_source_id: 
+  image_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1420196/footuel-mobile-shot.jpg
+  image_teaser_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1420196/footuel-mobile-shot_teaser.jpg
+  image_400_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1420196/footuel-mobile-shot_1x.jpg
+  player:
+    id: 59434
+    name: Benoît Boucart
+    location: Belgium, Europe, World
+    followers_count: 922
+    draftees_count: 5
+    likes_count: 3750
+    likes_received_count: 2180
+    comments_count: 504
+    comments_received_count: 203
+    rebounds_count: 2
+    rebounds_received_count: 1
+    url: http://dribbble.com/benske
+    avatar_url: https://d13yacurqjgara.cloudfront.net/users/59434/avatars/normal/54162_4888588178401_2139658563_o_copy.jpg?1358067724
+    username: benske
+    twitter_screen_name: benoitboucart
+    website_url: http://webbb.be
+    drafted_by_player_id: 6492
+    shots_count: 19
+    following_count: 154
+    created_at: 2011/09/04 04:42:47 -0400
+  created_at: 2014/02/12 15:02:48 -0500
+- id: 1361374
+  title: Football App - Live Game part 2
+  description: |-
+    <p>I made a major update of the “live game” view for this football application.</p>
+
+    <p>✓ Simple navigation, with tooltips for extra information
+    <br />✓ Focus on the live game with comments
+    <br />✓ Statistics &amp; game history
+    <br />✓ Fast &amp; easy to take an action during the game (for the coach)
+    <br />✓ Interaction possibilities</p>
+
+    <p><a href="http://dribbble.com/shots/1361374-Footuel-Live-Game-2-Shot/attachments/194268" rel="nofollow">The full view is attached</a>.</p>
+
+    <p>Your feedback is as always very appreciated!</p>
+  height: 600
+  width: 800
+  likes_count: 143
+  comments_count: 14
+  rebounds_count: 0
+  url: http://dribbble.com/shots/1361374-Football-App-Live-Game-part-2
+  short_url: http://drbl.in/jJyo
+  views_count: 3941
+  rebound_source_id: 
+  image_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1361374/footuel-live-game-2-shot.jpg
+  image_teaser_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1361374/footuel-live-game-2-shot_teaser.jpg
+  image_400_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1361374/footuel-live-game-2-shot_1x.jpg
+  player:
+    id: 59434
+    name: Benoît Boucart
+    location: Belgium, Europe, World
+    followers_count: 922
+    draftees_count: 5
+    likes_count: 3750
+    likes_received_count: 2180
+    comments_count: 504
+    comments_received_count: 203
+    rebounds_count: 2
+    rebounds_received_count: 1
+    url: http://dribbble.com/benske
+    avatar_url: https://d13yacurqjgara.cloudfront.net/users/59434/avatars/normal/54162_4888588178401_2139658563_o_copy.jpg?1358067724
+    username: benske
+    twitter_screen_name: benoitboucart
+    website_url: http://webbb.be
+    drafted_by_player_id: 6492
+    shots_count: 19
+    following_count: 154
+    created_at: 2011/09/04 04:42:47 -0400
+  created_at: 2013/12/30 15:17:56 -0500
+- id: 1358412
+  title: Belgium Today app
+  description: |-
+    <p>This is a project I designed for fun. It’s a dashboard that shows realtime news, music &amp; live events from Belgium. </p>
+
+    <p>See also the full view in attachment.</p>
+
+    <p>The icons on the right are from the awesome Linecons pack by Designmodo (http://designmodo.com/linecons-free/)</p>
+
+    <p>The weather icons are from the Climacons pack by Adam Whitcroft (http://dribbble.com/shots/544084-Climacons )
+    </p>
+  height: 600
+  width: 800
+  likes_count: 52
+  comments_count: 2
+  rebounds_count: 0
+  url: http://dribbble.com/shots/1358412-Belgium-Today-app
+  short_url: http://drbl.in/jItq
+  views_count: 1627
+  rebound_source_id: 
+  image_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1358412/belgium_today_shot800x600.jpg
+  image_teaser_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1358412/belgium_today_shot800x600_teaser.jpg
+  image_400_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1358412/belgium_today_shot800x600_1x.jpg
+  player:
+    id: 59434
+    name: Benoît Boucart
+    location: Belgium, Europe, World
+    followers_count: 922
+    draftees_count: 5
+    likes_count: 3750
+    likes_received_count: 2180
+    comments_count: 504
+    comments_received_count: 203
+    rebounds_count: 2
+    rebounds_received_count: 1
+    url: http://dribbble.com/benske
+    avatar_url: https://d13yacurqjgara.cloudfront.net/users/59434/avatars/normal/54162_4888588178401_2139658563_o_copy.jpg?1358067724
+    username: benske
+    twitter_screen_name: benoitboucart
+    website_url: http://webbb.be
+    drafted_by_player_id: 6492
+    shots_count: 19
+    following_count: 154
+    created_at: 2011/09/04 04:42:47 -0400
+  created_at: 2013/12/26 11:48:03 -0500
+- id: 1355339
+  title: Chart Widget (with PSD)
+  description: |-
+    <p>A chart widget I designed for fun. Check also the @2x view and feel free to grab the attached PSD.</p>
+
+    <p>The beautiful photo was taken by @[124668:Viktor Hanáček]</p>
+  height: 600
+  width: 800
+  likes_count: 51
+  comments_count: 7
+  rebounds_count: 0
+  url: http://dribbble.com/shots/1355339-Chart-Widget-with-PSD
+  short_url: http://drbl.in/jHml
+  views_count: 1614
+  rebound_source_id: 895450
+  image_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1355339/chart-widget.jpg
+  image_teaser_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1355339/chart-widget_teaser.jpg
+  image_400_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1355339/chart-widget_1x.jpg
+  player:
+    id: 59434
+    name: Benoît Boucart
+    location: Belgium, Europe, World
+    followers_count: 922
+    draftees_count: 5
+    likes_count: 3750
+    likes_received_count: 2180
+    comments_count: 504
+    comments_received_count: 203
+    rebounds_count: 2
+    rebounds_received_count: 1
+    url: http://dribbble.com/benske
+    avatar_url: https://d13yacurqjgara.cloudfront.net/users/59434/avatars/normal/54162_4888588178401_2139658563_o_copy.jpg?1358067724
+    username: benske
+    twitter_screen_name: benoitboucart
+    website_url: http://webbb.be
+    drafted_by_player_id: 6492
+    shots_count: 19
+    following_count: 154
+    created_at: 2011/09/04 04:42:47 -0400
+  created_at: 2013/12/22 11:13:26 -0500
+- id: 1337750
+  title: New website design
+  description: <p>New webdesign. Work in progress. See attachment for the full view.
+    Your feedback is as always welcome!</p>
+  height: 600
+  width: 800
+  likes_count: 55
+  comments_count: 1
+  rebounds_count: 0
+  url: http://dribbble.com/shots/1337750-New-website-design
+  short_url: http://drbl.in/jALY
+  views_count: 1189
+  rebound_source_id: 
+  image_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1337750/shot.jpg
+  image_teaser_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1337750/shot_teaser.jpg
+  image_400_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1337750/shot_1x.jpg
+  player:
+    id: 59434
+    name: Benoît Boucart
+    location: Belgium, Europe, World
+    followers_count: 922
+    draftees_count: 5
+    likes_count: 3750
+    likes_received_count: 2180
+    comments_count: 504
+    comments_received_count: 203
+    rebounds_count: 2
+    rebounds_received_count: 1
+    url: http://dribbble.com/benske
+    avatar_url: https://d13yacurqjgara.cloudfront.net/users/59434/avatars/normal/54162_4888588178401_2139658563_o_copy.jpg?1358067724
+    username: benske
+    twitter_screen_name: benoitboucart
+    website_url: http://webbb.be
+    drafted_by_player_id: 6492
+    shots_count: 19
+    following_count: 154
+    created_at: 2011/09/04 04:42:47 -0400
+  created_at: 2013/12/06 14:55:41 -0500
+- id: 1289342
+  title: Football app live game
+  description: |-
+    <p>Here is the live football game preview for a manager game I'm working on.</p>
+
+    <p>The full view of the page is attached.</p>
+
+    <p>Feedback would be greatly appreciated.</p>
+  height: 600
+  width: 800
+  likes_count: 113
+  comments_count: 14
+  rebounds_count: 0
+  url: http://dribbble.com/shots/1289342-Football-app-live-game
+  short_url: http://drbl.in/jiRc
+  views_count: 3136
+  rebound_source_id: 
+  image_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1289342/football_app_live_game_shot.jpg
+  image_teaser_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1289342/football_app_live_game_shot_teaser.jpg
+  image_400_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1289342/football_app_live_game_shot_1x.jpg
+  player:
+    id: 59434
+    name: Benoît Boucart
+    location: Belgium, Europe, World
+    followers_count: 922
+    draftees_count: 5
+    likes_count: 3750
+    likes_received_count: 2180
+    comments_count: 504
+    comments_received_count: 203
+    rebounds_count: 2
+    rebounds_received_count: 1
+    url: http://dribbble.com/benske
+    avatar_url: https://d13yacurqjgara.cloudfront.net/users/59434/avatars/normal/54162_4888588178401_2139658563_o_copy.jpg?1358067724
+    username: benske
+    twitter_screen_name: benoitboucart
+    website_url: http://webbb.be
+    drafted_by_player_id: 6492
+    shots_count: 19
+    following_count: 154
+    created_at: 2011/09/04 04:42:47 -0400
+  created_at: 2013/10/28 13:05:37 -0400
+- id: 1253537
+  title: 3 Dribbble invites giveaway
+  description: |-
+    <p>I have 3 Dribbble invites to give away. </p>
+
+    <p>1. Follow me on Dribbble if you like my work :)
+    <br />2. Send me your best shot or portfolio link via mail with a little explanation why you want to join the Dribbble community.</p>
+
+    <p>I will announce the winners next week!</p>
+
+    <p>Good luck!
+    </p>
+  height: 600
+  width: 800
+  likes_count: 58
+  comments_count: 5
+  rebounds_count: 0
+  url: http://dribbble.com/shots/1253537-3-Dribbble-invites-giveaway
+  short_url: http://drbl.in/iVEz
+  views_count: 693
+  rebound_source_id: 
+  image_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1253537/dribbble-invite-giveaway-3.jpg
+  image_teaser_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1253537/dribbble-invite-giveaway-3_teaser.jpg
+  image_400_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1253537/dribbble-invite-giveaway-3_1x.jpg
+  player:
+    id: 59434
+    name: Benoît Boucart
+    location: Belgium, Europe, World
+    followers_count: 922
+    draftees_count: 5
+    likes_count: 3750
+    likes_received_count: 2180
+    comments_count: 504
+    comments_received_count: 203
+    rebounds_count: 2
+    rebounds_received_count: 1
+    url: http://dribbble.com/benske
+    avatar_url: https://d13yacurqjgara.cloudfront.net/users/59434/avatars/normal/54162_4888588178401_2139658563_o_copy.jpg?1358067724
+    username: benske
+    twitter_screen_name: benoitboucart
+    website_url: http://webbb.be
+    drafted_by_player_id: 6492
+    shots_count: 19
+    following_count: 154
+    created_at: 2011/09/04 04:42:47 -0400
+  created_at: 2013/09/29 10:34:22 -0400
+- id: 1243585
+  title: Dashboard for a football app
+  description: |-
+    <p>Initial version of the dashboard for a football app.</p>
+
+    <p>Your feedback is as always welcome!</p>
+
+    <p>Most of the icons are from the awesome Linecons pack by  @[72548:Designmodo] </p>
+  height: 600
+  width: 800
+  likes_count: 260
+  comments_count: 15
+  rebounds_count: 0
+  url: http://dribbble.com/shots/1243585-Dashboard-for-a-football-app
+  short_url: http://drbl.in/iRVf
+  views_count: 8446
+  rebound_source_id: 
+  image_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1243585/football_app_shot.jpg
+  image_teaser_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1243585/football_app_shot_teaser.jpg
+  image_400_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1243585/football_app_shot_1x.jpg
+  player:
+    id: 59434
+    name: Benoît Boucart
+    location: Belgium, Europe, World
+    followers_count: 922
+    draftees_count: 5
+    likes_count: 3750
+    likes_received_count: 2180
+    comments_count: 504
+    comments_received_count: 203
+    rebounds_count: 2
+    rebounds_received_count: 1
+    url: http://dribbble.com/benske
+    avatar_url: https://d13yacurqjgara.cloudfront.net/users/59434/avatars/normal/54162_4888588178401_2139658563_o_copy.jpg?1358067724
+    username: benske
+    twitter_screen_name: benoitboucart
+    website_url: http://webbb.be
+    drafted_by_player_id: 6492
+    shots_count: 19
+    following_count: 154
+    created_at: 2011/09/04 04:42:47 -0400
+  created_at: 2013/09/20 14:14:33 -0400
+- id: 1101901
+  title: Redesign of my hometown's website
+  description: |-
+    <p>This is a redesign proposal for the website of my hometown. I opted for a modern, clean interface with grades of green (the color of the town). </p>
+
+    <p>It's a project I started a long time ago and I decided to make a design for it. </p>
+
+    <p>As usual, your feedback will be highly appreciated.</p>
+  height: 600
+  width: 800
+  likes_count: 76
+  comments_count: 8
+  rebounds_count: 0
+  url: http://dribbble.com/shots/1101901-Redesign-of-my-hometown-s-website
+  short_url: http://drbl.in/hRAv
+  views_count: 1911
+  rebound_source_id: 
+  image_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1101901/dribbble-shot.png
+  image_teaser_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1101901/dribbble-shot_teaser.png
+  image_400_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/1101901/dribbble-shot_1x.png
+  player:
+    id: 59434
+    name: Benoît Boucart
+    location: Belgium, Europe, World
+    followers_count: 922
+    draftees_count: 5
+    likes_count: 3750
+    likes_received_count: 2180
+    comments_count: 504
+    comments_received_count: 203
+    rebounds_count: 2
+    rebounds_received_count: 1
+    url: http://dribbble.com/benske
+    avatar_url: https://d13yacurqjgara.cloudfront.net/users/59434/avatars/normal/54162_4888588178401_2139658563_o_copy.jpg?1358067724
+    username: benske
+    twitter_screen_name: benoitboucart
+    website_url: http://webbb.be
+    drafted_by_player_id: 6492
+    shots_count: 19
+    following_count: 154
+    created_at: 2011/09/04 04:42:47 -0400
+  created_at: 2013/06/05 13:55:31 -0400
+- id: 978600
+  title: My first personal blog design
+  description: |-
+    <p>This is the design for my new personal blog. Before integrating it, I'd like to have your feedback!</p>
+
+    <p>The <a href="http://dribbble.com/shots/978600-My-first-personal-blog-design/attachments/113369">full view</a> is attached.</p>
+
+    <p><strong>UPDATE 14/04/2013:</strong> The blog is finally online! See it live --&gt; http://webbb.be/blog/</p>
+  height: 600
+  width: 800
+  likes_count: 108
+  comments_count: 4
+  rebounds_count: 0
+  url: http://dribbble.com/shots/978600-My-first-personal-blog-design
+  short_url: http://drbl.in/gXVm
+  views_count: 2972
+  rebound_source_id: 
+  image_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/978600/shot.jpg
+  image_teaser_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/978600/shot_teaser.jpg
+  image_400_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/978600/shot_1x.jpg
+  player:
+    id: 59434
+    name: Benoît Boucart
+    location: Belgium, Europe, World
+    followers_count: 922
+    draftees_count: 5
+    likes_count: 3750
+    likes_received_count: 2180
+    comments_count: 504
+    comments_received_count: 203
+    rebounds_count: 2
+    rebounds_received_count: 1
+    url: http://dribbble.com/benske
+    avatar_url: https://d13yacurqjgara.cloudfront.net/users/59434/avatars/normal/54162_4888588178401_2139658563_o_copy.jpg?1358067724
+    username: benske
+    twitter_screen_name: benoitboucart
+    website_url: http://webbb.be
+    drafted_by_player_id: 6492
+    shots_count: 19
+    following_count: 154
+    created_at: 2011/09/04 04:42:47 -0400
+  created_at: 2013/03/10 07:59:48 -0400
+- id: 969282
+  title: Autostore Dashboard UI
+  description: |-
+    <p>This is a dashboard UI (flat and simple) for an automation system. </p>
+
+    <p>Here is the full preview of the shot:
+    <br />https://dl.dropbox.com/u/6690887/2013/shots/storex_autostore.jpg</p>
+
+    <p>The chart is based on Orman Clark's clean and simple line chart (http://www.premiumpixels.com/freebies/clean-simple-line-chart-psd/)</p>
+  height: 600
+  width: 800
+  likes_count: 73
+  comments_count: 10
+  rebounds_count: 0
+  url: http://dribbble.com/shots/969282-Autostore-Dashboard-UI
+  short_url: http://drbl.in/gUyc
+  views_count: 2850
+  rebound_source_id: 
+  image_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/969282/shot-clean-flat.jpg
+  image_teaser_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/969282/shot-clean-flat_teaser.jpg
+  image_400_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/969282/shot-clean-flat_1x.jpg
+  player:
+    id: 59434
+    name: Benoît Boucart
+    location: Belgium, Europe, World
+    followers_count: 922
+    draftees_count: 5
+    likes_count: 3750
+    likes_received_count: 2180
+    comments_count: 504
+    comments_received_count: 203
+    rebounds_count: 2
+    rebounds_received_count: 1
+    url: http://dribbble.com/benske
+    avatar_url: https://d13yacurqjgara.cloudfront.net/users/59434/avatars/normal/54162_4888588178401_2139658563_o_copy.jpg?1358067724
+    username: benske
+    twitter_screen_name: benoitboucart
+    website_url: http://webbb.be
+    drafted_by_player_id: 6492
+    shots_count: 19
+    following_count: 154
+    created_at: 2011/09/04 04:42:47 -0400
+  created_at: 2013/03/04 13:08:08 -0500
+- id: 946845
+  title: Live football timeline
+  description: |-
+    <p>Concept for a live football game timeline (WIP). View it in @2x.
+    <br />What do you think?</p>
+  height: 600
+  width: 800
+  likes_count: 109
+  comments_count: 10
+  rebounds_count: 0
+  url: http://dribbble.com/shots/946845-Live-football-timeline
+  short_url: http://drbl.in/gMiD
+  views_count: 3824
+  rebound_source_id: 
+  image_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/946845/shot_streaming.jpg
+  image_teaser_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/946845/shot_streaming_teaser.jpg
+  image_400_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/946845/shot_streaming_1x.jpg
+  player:
+    id: 59434
+    name: Benoît Boucart
+    location: Belgium, Europe, World
+    followers_count: 922
+    draftees_count: 5
+    likes_count: 3750
+    likes_received_count: 2180
+    comments_count: 504
+    comments_received_count: 203
+    rebounds_count: 2
+    rebounds_received_count: 1
+    url: http://dribbble.com/benske
+    avatar_url: https://d13yacurqjgara.cloudfront.net/users/59434/avatars/normal/54162_4888588178401_2139658563_o_copy.jpg?1358067724
+    username: benske
+    twitter_screen_name: benoitboucart
+    website_url: http://webbb.be
+    drafted_by_player_id: 6492
+    shots_count: 19
+    following_count: 154
+    created_at: 2011/09/04 04:42:47 -0400
+  created_at: 2013/02/17 11:46:12 -0500
+- id: 936105
+  title: Bed and Breakfast - Retro
+  description: <p>This is a project I'm working on for a bed and breakfast in Tunisia
+    (first version).</p>
+  height: 600
+  width: 800
+  likes_count: 141
+  comments_count: 9
+  rebounds_count: 0
+  url: http://dribbble.com/shots/936105-Bed-and-Breakfast-Retro
+  short_url: http://drbl.in/gIkb
+  views_count: 3003
+  rebound_source_id: 
+  image_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/936105/_shot.jpg
+  image_teaser_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/936105/_shot_teaser.jpg
+  image_400_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/936105/_shot_1x.jpg
+  player:
+    id: 59434
+    name: Benoît Boucart
+    location: Belgium, Europe, World
+    followers_count: 922
+    draftees_count: 5
+    likes_count: 3750
+    likes_received_count: 2180
+    comments_count: 504
+    comments_received_count: 203
+    rebounds_count: 2
+    rebounds_received_count: 1
+    url: http://dribbble.com/benske
+    avatar_url: https://d13yacurqjgara.cloudfront.net/users/59434/avatars/normal/54162_4888588178401_2139658563_o_copy.jpg?1358067724
+    username: benske
+    twitter_screen_name: benoitboucart
+    website_url: http://webbb.be
+    drafted_by_player_id: 6492
+    shots_count: 19
+    following_count: 154
+    created_at: 2011/09/04 04:42:47 -0400
+  created_at: 2013/02/09 14:43:58 -0500
+- id: 913908
+  title: Portfolio design - Webbb
+  description: |-
+    <p>I finally finished the design and integration for my new portfolio website.</p>
+
+    <p>What do you think?</p>
+
+    <p>See it live: www.webbb.be</p>
+  height: 600
+  width: 800
+  likes_count: 223
+  comments_count: 26
+  rebounds_count: 0
+  url: http://dribbble.com/shots/913908-Portfolio-design-Webbb
+  short_url: http://drbl.in/gzZi
+  views_count: 7129
+  rebound_source_id: 
+  image_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/913908/_screenshot_shot.jpg
+  image_teaser_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/913908/_screenshot_shot_teaser.jpg
+  image_400_url: https://d13yacurqjgara.cloudfront.net/users/59434/screenshots/913908/_screenshot_shot_1x.jpg
+  player:
+    id: 59434
+    name: Benoît Boucart
+    location: Belgium, Europe, World
+    followers_count: 922
+    draftees_count: 5
+    likes_count: 3750
+    likes_received_count: 2180
+    comments_count: 504
+    comments_received_count: 203
+    rebounds_count: 2
+    rebounds_received_count: 1
+    url: http://dribbble.com/benske
+    avatar_url: https://d13yacurqjgara.cloudfront.net/users/59434/avatars/normal/54162_4888588178401_2139658563_o_copy.jpg?1358067724
+    username: benske
+    twitter_screen_name: benoitboucart
+    website_url: http://webbb.be
+    drafted_by_player_id: 6492
+    shots_count: 19
+    following_count: 154
+    created_at: 2011/09/04 04:42:47 -0400
+  created_at: 2013/01/27 08:29:37 -0500
