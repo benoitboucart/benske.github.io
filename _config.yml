@@ -1,6 +1,6 @@
 source:      	_source
 destination: 	blog
-baseurl:		  /
+baseurl:		  /blog/
 permalink:		/:title/
 
 social:
