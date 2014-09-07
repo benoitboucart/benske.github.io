@@ -229,13 +229,13 @@ layout: default
                     
                     {{ post.summary }}
                     {% for tag in post.tags %}
-                    <a href="{{ site.baseurl }}/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">
+                    <a href="{{ site.baseurl }}tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">
                         <u>{{ tag }}</u>
                     </a>
                     {% endfor %}
                 {% endcomment %}
             </div><!--/rowgrid-->
-            <div class="after"{% if post.cover %} style="background-image: url('/assets/img/cover/cover-light-{{post.cover}}')"{% endif %}></div><!--/after-->
+            <div class="after"{% if post.cover %} style="background-image: url('{{ site.baseurl }}assets/img/cover/cover-light-{{post.cover}}')"{% endif %}></div><!--/after-->
         </a><!--/backgrounded-->
 
     {% comment %}
@@ -290,7 +290,7 @@ layout: default
 
 {% comment %}
 {% for tag in site.tags %}
-    <a href="{{ site.baseurl }}/tags/{{ tag[0] }}" class="btn btn--tag">
+    <a href="{{ site.baseurl }}tags/{{ tag[0] }}" class="btn btn--tag">
         <span class="circle"></span>
         {{ tag[0] }}
     </a>

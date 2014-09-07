@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Eric Jones</title>
- <link href="/blog//atom.xml" rel="self"/>
- <link href="/blog//"/>
- <updated>2014-09-07T16:18:46+02:00</updated>
- <id>/blog//</id>
+ <link href="/blog/atom.xml" rel="self"/>
+ <link href="/blog/"/>
+ <updated>2014-09-07T16:21:38+02:00</updated>
+ <id>/blog/</id>
  <author>
    <name>Benoît Boucart</name>
  </author>

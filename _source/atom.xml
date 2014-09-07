@@ -5,10 +5,10 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Eric Jones</title>
- <link href="{{ site.baseurl }}/atom.xml" rel="self"/>
- <link href="{{ site.baseurl }}/"/>
+ <link href="{{ site.baseurl }}atom.xml" rel="self"/>
+ <link href="{{ site.baseurl }}"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.baseurl }}/</id>
+ <id>{{ site.baseurl }}</id>
  <author>
    <name>Benoît Boucart</name>
  </author>
