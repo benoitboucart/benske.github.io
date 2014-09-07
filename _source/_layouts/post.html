@@ -113,7 +113,7 @@ layout: default
                             <!-- -> Show posts with this tag -->
                             {% for post in site.posts reversed %}
 								{% if post.tags contains tag %}
-								<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+								<a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 								{% endif %}
 							{% endfor %}
 							{% endcomment %}
